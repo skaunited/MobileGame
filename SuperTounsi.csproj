@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E71F081-45CA-AF71-6521-882F592C316C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Achievements\AchievementRules.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\AI\AIFollow.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\AI\AIShootOnSight.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\AI\AIWalk.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\AI\PathedProjectile.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\AI\PathedProjectileSpawner.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterAbility.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterButtonActivation.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterCrouch.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterDangling.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterDash.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterDive.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterGrip.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterHandleWeapon.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterHorizontalMovement.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterJetpack.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterJump.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterLadder.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterLookUp.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterPause.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterPush.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterRun.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterSlopeOrientation.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterWallClinging.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CharacterAbilities\CharacterWalljump.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Core\Character.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Core\CharacterEvents.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Core\CharacterLevelBounds.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Core\CharacterStates.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Core\Health.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CorgiController\CorgiController.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CorgiController\CorgiControllerParameters.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\CorgiController\CorgiControllerState.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Damage\DamageOnTouch.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Damage\KillPlayerOnTouch.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Damage\Stompable.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Weapons\MeleeWeapon.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Weapons\Projectile.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Weapons\ProjectileWeapon.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Weapons\Weapon.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Weapons\WeaponAim.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Weapons\WeaponAmmo.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Weapons\WeaponIK.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Agents\Weapons\WeaponLaserSight.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Camera\CameraController.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Camera\CameraFollowSimple.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Camera\LevelBackground.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Camera\MultiplayerCameraController.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Camera\ParallaxCamera.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Camera\ParallaxElement.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\BonusBlock.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\CharacterOverrides\CharacterHorizontalMovementOverride.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\CharacterOverrides\CharacterJumpOverride.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\CharacterOverrides\CorgiControllerPhysicsVolume2D.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\CharacterOverrides\Water.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\FallingPlatform.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\Grip.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\Jumper.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\Ladder.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\MovingPlatform.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\Pushable.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\RandomSprite.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\SurfaceModifier.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\Teleporter.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Environment\WallClingingOverride.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\ButtonActivated.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\Dialogue\DialogueBox.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\Dialogue\DialogueZone.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\GUIManager.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\HealthBar\HealthBar.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\HipsterGUI.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\LevelSelector.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\LevelSelectorGUI.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\MultiplayerGUIManager.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\PauseButton.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\GUI\StartScreen.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Items\Coin.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Items\PickableItem.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Items\PickableWeapon.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Items\Stimpack.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Items\TimeModifier.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Managers\InputManager.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Managers\LevelManager.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Managers\LoadingSceneManager.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Managers\MultiplayerLevelManager.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Sound\BackgroundMusic.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Spawn\AutoRespawn.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Spawn\CheckPoint.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Spawn\FinishLevel.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Spawn\LevelRestarter.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Scripts\Spawn\Respawnable.cs" />
+    <Compile Include="Assets\CorgiEngine\Demos\Corgi2D\Scripts\BackgroundTree.cs" />
+    <Compile Include="Assets\CorgiEngine\Demos\LevelSelection\Scripts\LevelMapCharacter.cs" />
+    <Compile Include="Assets\CorgiEngine\Demos\LevelSelection\Scripts\LevelMapPathElement.cs" />
+    <Compile Include="Assets\CorgiEngine\Demos\SuperHipsterBros\Scripts\Mushroom.cs" />
+    <Compile Include="Assets\CorgiEngine\Demos\SuperHipsterBros\Scripts\SuperHipsterBrosHealth.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Achievements\Scripts\MMAchievement.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Achievements\Scripts\MMAchievementDisplayItem.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Achievements\Scripts\MMAchievementDisplayer.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Achievements\Scripts\MMAchievementEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Achievements\Scripts\MMAchievementList.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Achievements\Scripts\MMAchievementManager.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Achievements\Scripts\MMAchievementRules.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Achievements\Scripts\SerializedMMAchievementManager.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Attributes\HiddenAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Attributes\InformationAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Attributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\AutoDestroy\TimedAutoDestroy.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Automation\AutoRotate.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Automation\PathMovement\PathMovement.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Automation\Wiggle.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Events\MMEventManager.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Extension\ExtensionMethods.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\FPSCounter\FPSCounter.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\GUI\GetFocusOnEnable.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\GUI\ProgressBar.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Icons\SceneViewIcon.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMControls\MMControlsTestInputManager.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMControls\MMTouchAxis.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMControls\MMTouchButton.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMControls\MMTouchControls.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMControls\MMTouchDynamicJoystick.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMControls\MMTouchJoystick.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMAnimator.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMBounds.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMConsole.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMDebug.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMFade.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMGUI.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMHelpers.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMImage.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMInput.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMLayers.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMLists.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMMaths.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMMovement.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\MMHelpers\MMTime.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\ObjectBounds\ObjectBounds.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\ObjectPool\MultipleObjectPooler.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\ObjectPool\ObjectPooler.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\ObjectPool\PoolableObject.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\ObjectPool\SimpleObjectPooler.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Particles\AutoDestroyParticleSystem.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Particles\ChangeFogColor.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Particles\VisibleParticle.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\RigidbodyInterface\RigidbodyInterface.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\SaveLoad\SaveLoadManager.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Singletons\PersistentHumbleSingleton.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Singletons\PersistentSingleton.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\Singletons\Singleton.cs" />
+    <Compile Include="Assets\CorgiEngine\MMTools\StateMachine\MMStateMachine.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\CorgiEngine\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\CorgiEngine\Demos\Brobro\Spine\Brobro\space-corgi.atlas.txt" />
+    <None Include="Assets\CorgiEngine\Demos\Corgi2D\Spine\Heavy\heavy-corgi.atlas.txt" />
+    <None Include="Assets\CorgiEngine\Demos\Corgi2D\Spine\NativeSpineCorgi\ExportedFromSpine\space-corgi.atlas.txt" />
+    <None Include="Assets\CorgiEngine\Demos\Corgi2D\Spine\SpaceCorgi\space-corgi.atlas.txt" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\CorgiEngine\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\CorgiEngine\readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
